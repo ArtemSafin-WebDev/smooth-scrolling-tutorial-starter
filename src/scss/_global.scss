@@ -1,0 +1,77 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  min-width: 320px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: $primary-font;
+  background-color: $body-color;
+  color: $primary-font-color;
+  line-height: 1.4;
+  > * {
+    flex-shrink: 0;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+a, a:link, a:visited {
+  text-decoration: none;
+  display: inline-block;
+}
+
+header {
+  background-color: $header-color;
+}
+
+main {
+  flex-grow: 1;
+  background-color: $main-color;
+}
+
+footer {
+  background-color: $footer-color;
+}
+
+aside {
+  background-color: $sidebar-color;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+svg {
+  margin-right: 20px;
+}
+
+
+::selection {
+  color: white;
+  background: $primary-color;
+} 

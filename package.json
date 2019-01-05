@@ -1,0 +1,45 @@
+{
+  "name": "smooth-scrolling-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "dev": "npm run build && gulp serve",
+    "html": "gulp html",
+    "clean": "gulp clean",
+    "styles": "gulp styles",
+    "scripts": "gulp scripts",
+    "images": "gulp images",
+    "sprite": "gulp sprite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.4",
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-inject-partials": "^1.0.4",
+    "gulp-newer": "^1.4.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-svgmin": "^2.1.0",
+    "gulp-svgstore": "^7.0.1",
+    "gulp-uglify-es": "^1.0.4",
+    "gulp-webp": "^3.0.0",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-stream": "^5.2.1"
+  }
+}

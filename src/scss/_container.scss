@@ -1,0 +1,20 @@
+.container {
+  @include container();
+}
+
+.container--flex-sidebar {
+  flex-grow: 1;
+  display: flex;
+  padding-left: 0;
+  padding-right: 0;
+  > *:nth-child(1) {
+    width: 50%;
+    flex-grow: 1;
+    padding: 20px;
+  }
+  > *:nth-child(2) {
+    width: 400px;
+    flex-shrink: 0;
+    padding: 20px;
+  }
+}

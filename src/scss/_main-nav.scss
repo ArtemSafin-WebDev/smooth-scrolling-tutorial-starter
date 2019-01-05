@@ -1,0 +1,25 @@
+.nav-panel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav__link {
+  color: $primary-font-color;
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 5px 15px;
+  transition: color .3s;
+  &:link,
+  &:visited {
+    color: $primary-font-color;
+  }
+  &:focus,
+  &:hover {
+    color: $primary-color;
+  }
+}
